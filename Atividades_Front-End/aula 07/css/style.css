@@ -1,0 +1,50 @@
+.Titulo-principal {
+    color: red;
+    font-size: 80px; 
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    background-color: aliceblue;
+}
+
+p {
+    color: teal;
+    font-size: 40px;
+}
+
+#Lista-de-Compras {
+    font-size: 25px;
+    background-color: rgb(126, 17, 89);
+    
+}
+
+li {
+    color: purple;
+}
+
+.li {
+    color: orange;
+}
+
+.quadrinhos {
+    color:blueviolet;
+    font-family:"Comic Sans MS";
+    font-size: 15px;
+    }
+
+.normal {
+    color:aquamarine;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.fonte-dh {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.p2 {
+    font-family: initial;
+    font-size: 15px;
+    color:coral;
+}
