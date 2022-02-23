@@ -1,0 +1,12 @@
+body{
+    background-image: url('../img/pattern.png');
+    background-size: 100px;
+    background-repeat: repeat;
+}
+.imagem {
+    background-image: url(../img/b0osYPt.gif);
+    width: 1920px;
+    height: 1080px;
+    background-size:50%;
+    background-repeat: no-repeat;
+}
