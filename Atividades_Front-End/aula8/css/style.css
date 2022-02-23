@@ -10,13 +10,15 @@
 .media-picture {
     line-height: 400px;
     background-size: cover;
-    max-width: 1340px;
+    max-width: 1315px;
+    margin: 10px;
+    
 }
 .review-score {
     color:white;
     background-color: #e6bd09;
-    padding: 12px;
-    
+    padding: 15px;
+     
 }
 h2 {
     color: steelblue;
