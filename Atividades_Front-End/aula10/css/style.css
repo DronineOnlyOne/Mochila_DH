@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    background-color: blueviolet;
+}
+
+.Titulo {
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.39);
+    position: sticky;
+    top: 0px;
+    text-align: center;
+    background-color: rgba(253, 0, 0, 0.733);
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-style: initial;
+}
+
+.quadrado {
+    position: relative;
+    top: 70px;
+    left: 125px;
+    bottom: 70px;
+    width: 300px;
+    height: 400px;
+    background-color: aqua;
+    margin: 40px 0px 15px 40px;
+    padding: 70px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 10px 10px 9px rgba(0, 0, 0, 0.288);
+    text-align: center;
+}
+
+.quadrado2 {
+    position: relative;
+    top: 70px;
+    left: 125px;
+    bottom: 70px;
+    width: 300px;
+    height: 400px;
+    background-color: aqua;
+    margin: 40px 0px 15px 40px;
+    padding: 70px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    display:inline-block;
+    box-shadow: 10px 10px 9px rgba(0, 0, 0, 0.288);
+    text-align: center;
+}
+.footer {
+    text-align: left;
+    background-color: cornflowerblue;
+    position: relative;
+    top: 130px;
+    padding: 15px;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
