@@ -3,62 +3,101 @@
     padding:0;
     box-sizing: border-box;
 }
-body {
-    background-color: blueviolet;
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
 }
 
-.Titulo {
-    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.39);
+p, span, div {
+    font-family: 'roboto', sans-serif; 
+    font-weight: 400;  
+}
+
+header {
     position: sticky;
     top: 0px;
-    text-align: center;
-    background-color: rgba(253, 0, 0, 0.733);
-    padding: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: larger;
-    font-style: initial;
+    z-index: 1;
 }
 
-.quadrado {
+header .header-container {
+    padding: 10px;
+}
+
+header .desconto {
+    background-color: #1CD1b0;
     position: relative;
-    top: 70px;
-    left: 125px;
-    bottom: 70px;
-    width: 300px;
-    height: 400px;
-    background-color: aqua;
-    margin: 40px 0px 15px 40px;
-    padding: 70px;
-    border: 2px solid yellow;
-    border-radius: 10px;
+}
+
+header .titulo-pagina {
+    background-color: #00669F;
+    box-shadow: 0px 1px 20px;
+}
+
+main .container {
+    max-width: 600px;
+    margin: 0 auto ;
+}
+
+section.cards-personagens{
+    margin-top: 77px;
+}
+
+.cards-personagens {
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-right: 244px;
+    width: 374px;
     display: inline-block;
-    box-shadow: 10px 10px 9px rgba(0, 0, 0, 0.288);
-    text-align: center;
 }
 
-.quadrado2 {
-    position: relative;
-    top: 70px;
-    left: 125px;
-    bottom: 70px;
-    width: 300px;
-    height: 400px;
-    background-color: aqua;
-    margin: 40px 0px 15px 40px;
-    padding: 70px;
-    border: 2px solid yellow;
-    border-radius: 10px;
-    display:inline-block;
-    box-shadow: 10px 10px 9px rgba(0, 0, 0, 0.288);
-    text-align: center;
-}
-.footer {
-    text-align: left;
-    background-color: cornflowerblue;
-    position: relative;
-    top: 130px;
-    padding: 15px;
-    font-size: 13px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.card-header {
+    height: 200px;
+    background-image: url(../img/batcaverna.png);
+    padding:25px 25px 159px 25px;
 }
 
+.card-header2 {
+    height: 200px;
+    background-image: url(../img/fundoarlequina.png);
+    padding:25px 25px 159px 25px
+}
+
+.card-foto-perfil {
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 60px;
+    z-index: 0;
+}
+
+.card-textos {
+    height: 145px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card-titulo{
+    padding: 20px;
+}
+
+.vejamais {
+    background-color: #00669F;
+    padding: 20px;
+    margin-left: 30%;
+    margin-top: 15%;
+    width: 145.34px;
+    height: 54.76px;
+    font-weight: 400;
+    font-family: 'roboto',sans-serif;
+    border-style: initial;
+    color: white;
+}
+
+.footer-container {
+    background-color: #00669F;
+    padding: 10px;
+    border-style: initial;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+}
