@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+}
+
+p, span, div {
+    font-family: 'roboto', sans-serif; 
+    font-weight: 400;  
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+header .header-container {
+    padding: 10px;
+}
+
+header .desconto {
+    background-color: #1CD1b0;
+    position: relative;
+}
+
+header .titulo-pagina {
+    background-color: #00669F;
+    box-shadow: 0px 1px 20px;
+}
+
+main .container {
+    max-width: 600px;
+    margin: 0 auto ;
+}
+
+section.cards-personagens{
+    margin-top: 77px;
+}
+
+.cards-personagens {
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-right: 244px;
+    width: 374px;
+    display: inline-block;
+}
+
+.card-header {
+    height: 200px;
+    background-image: url(../img/batcaverna.png);
+    padding:25px 25px 159px 25px;
+}
+
+.card-header2 {
+    height: 200px;
+    background-image: url(../img/fundoarlequina.png);
+    padding:25px 25px 159px 25px
+}
+
+.card-foto-perfil {
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 60px;
+    z-index: 0;
+}
+
+.card-textos {
+    height: 145px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card-titulo{
+    padding: 20px;
+}
+
+.vejamais {
+    background-color: #00669F;
+    padding: 20px;
+    margin-left: 30%;
+    margin-top: 15%;
+    width: 145.34px;
+    height: 54.76px;
+    font-weight: 400;
+    font-family: 'roboto',sans-serif;
+    border-style: initial;
+    color: white;
+}
+
+.footer-container {
+    background-color: #00669F;
+    padding: 10px;
+    border-style: initial;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+}
