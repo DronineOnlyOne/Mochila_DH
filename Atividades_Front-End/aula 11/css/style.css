@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .cabecalho {
+    background-color: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 100px;
+    display: flex;
+    justify-content:space-around;
+    color: white;
+}
+
+.cabecalho ul {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    padding-top: 45px;
+}
+
+.pizza {
+    padding: 10px;
+    margin-right: 650px;
+}
+
+.menu {
+list-style: none;
+font-family: 'roboto';
+}
+
+main .container {
+    max-width: 1254px;
+    margin: 0 auto ;
+    background-color: white;
+}
+
+.imagens {
+    margin-right: 14px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.moto {
+    border-radius: 10px;
+}
+
+.titulo-moto {
+    position: absolute;
+    color: orangered;
+}
+
+.cardapio-foto {
+    padding-top: 131px;
+    margin-bottom: 91px;
+    margin-right: -875px;
+}
+
+.titulos-imagens {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 240px 0px 70px;
+    font-weight: 400;
+}
+
+.cardapio-de-pizzas {
+    position: absolute;
+    padding-left: 700px;
+    padding-top: 25px;
+    color: orangered;
+}
+
+.top5 {
+    position: absolute;
+    padding-left: 708px;
+    padding-top: 96px;
+}
+
+.cardapio {
+    display: flex;
+    justify-content: space-around;
+    padding: 105px 420px 0px 0px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.cardapio li{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+section .menu {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.footer {
+    background-color: #222222;
+    height: 165px;
+    display: flex;
+    justify-content:space-between;
+    color: white;
+}
+footer .menu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+    list-style: none;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.pizza2 {
+    padding: 45px 55px 30px 0px;
+}
