@@ -49,6 +49,7 @@ section.cards-personagens{
     margin-right: 244px;
     width: 374px;
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
     flex-direction: row;
 }
@@ -97,7 +98,7 @@ section.cards-personagens{
 }
 
 .footer-container {
-    background-color: #00669F;
+    background-color: #C4C4C4;;
     padding: 10px;
     border-style: initial;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
