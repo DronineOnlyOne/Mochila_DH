@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto';
+}
+
+
+header .cabecalho {
+    background-color: #C4C4C4;
+    height: 100px;
+    display: flex;
+    justify-content:space-between;
+    color: black;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 12px 68px 53px 68px;
+    margin-left: 209px;
+    margin-top: 17px;
+    margin-bottom: 50px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    box-shadow: 0px 1px 5px black;
+}
+
+.cabecalho ul {
+    display: flex;
+    justify-content: space-between;
+    width: 624px;
+    padding-top: 17px;
+    padding-bottom: 26px;
+    padding-right: 68px;
+    list-style: none;
+}
+
+.cabecalho li,h1 {
+    border: 1px solid #000000;
+    border-radius: 20px;
+    padding: 20px 55px 0px 49px;
+    box-shadow: 0px 1px 5px black;
+}
+
+main .container {
+    max-height: max-content;
+    max-width: max-content;
+    margin: 0 auto;
+}
+
+.Foto-Stand img{
+    width: 1349px;
+    height: 319px;
+    background-size: 150px;
+}
+
+.curiosidades {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 123px;
+    margin-top: 98px;
+}
+
+.card-curiosidade{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-size: auto;
+    max-height: 534px;
+    margin-left: 72px;
+}
+
+.card-curiosidade img {
+    width: 335px;
+    height: 534px;
+    background-size: 150px;
+    margin-top: 37px;
+    border-radius: 31px;
+    box-shadow: 0px 4px 10px black;
+}
+
+.video {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-size: auto;
+    margin-left: 123px;
+    margin-top: 140px;
+    width: 1170px; 
+    height: 246px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-left: 30px;
+    border-bottom: 100px;
+    background-color: #C4C4C4;;
+    padding: 50px;
+    border-style: initial;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.icons img {
+    width: 141px;
+    height: 141px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-left: 900px;
+}
