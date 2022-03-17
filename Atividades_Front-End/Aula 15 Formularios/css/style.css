@@ -1,0 +1,120 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.desconto {
+    background-color:#1CD1B0;
+    position: relative;
+}
+
+.desconto p {
+    margin-left: 27px;
+    font-size: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.cabecalho {
+    background-color: #00669F;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    box-shadow:0px 0px 4px black;
+}
+
+.cabecalho img {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.cabecalho h1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 975px 0px 0px;
+    margin-top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.container {
+    margin-top: 200px;
+    width: 1200px;
+    margin-bottom: 200px;
+}
+
+.container h1 {
+    display: flex;
+    justify-content: center;
+    margin-right: 239px;
+    margin-bottom: 45px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+}
+
+.container p {
+    position: relative;
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+}
+
+.entrada {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.place {
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 420px;
+    height: 40px;
+    box-shadow: inset 0 1px 4px;
+    font-size: 20px;
+}
+
+
+.submit {
+    background-color: #1CD1B0;
+    border-radius: 23px;
+    border: 0;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    height: 40px;
+    width: 420px;
+    margin-top: 38px;
+}
+
+.registro {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21.4769px;
+}
+
+.rodape {
+    background-color: #00669F;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
