@@ -25,33 +25,36 @@ header .header-container {
 }
 
 header .desconto {
-    background-color: #1CD1b0;
+    background-color: #D1891C;
     position: relative;
 }
 
 header .titulo-pagina {
     background-color: #00669F;
     box-shadow: 0px 1px 20px;
+    color: white;
 }
 
 main .container {
-    max-width: 600px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 2000px;
     margin: 0 auto ;
 }
 
 section.cards-personagens{
     margin-top: 77px;
+    margin-bottom: 77px;
 }
 
 .cards-personagens {
     background-color: #F3F3F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin-right: 244px;
     width: 374px;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: space-between;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .card-header {
@@ -86,6 +89,16 @@ section.cards-personagens{
     z-index: 0;
 }
 
+.card-foto-perfil2 {
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 60px;
+    z-index: 0;
+    max-width:136px;
+    max-height:134px;
+}
+
 .card-textos {
     height: 145px;
     text-align: center;
@@ -111,8 +124,32 @@ section.cards-personagens{
 
 .footer-container {
     background-color: #00669F;
-    padding: 10px;
-    border-style: initial;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 20px;
     color: white;
+}
+
+.git {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.git img {
+    margin-right: 10px;
+}
+
+.git p {
+   margin-left: 510px;
+   margin-top: 15px;
+}
+
+@media (max-width: 425px) {
+    .container {
+        width: 100%;
+    }
+    
+    .grupo-produtos {
+         flex-direction: column;
+    }
+    
 }
