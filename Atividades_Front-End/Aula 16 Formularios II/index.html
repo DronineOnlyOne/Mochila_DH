@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Aula 16 - Pseudoseletores</title>
+</head>
+
+<body>
+    <header>
+        <div class="preco">
+            <p>20% de desconto em todos os produtos!</p>
+        </div>
+        <div class="cabecalho">
+            <img src="./img/Logo.png" alt="">
+            <h1>Nome da Loja</h1>
+        </div>
+        <div class="subcabecalho">
+            <ul>
+                <li>Contato</li>
+                <li>Registrar-se</li>
+                <li>Login</li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section>
+            <article>
+                <div class="container">
+                    <div class="menu">
+                        <form action="registro" method="post">
+                            <div class="text">
+                                <h1>Adicionar seu super-herói</h1>
+                                <p>Adicione seu personagem favorito completando as informações</p>
+                            </div>
+                            <div class="inputs1">
+                                <div>
+                                    <p>
+                                        <label for="nome" class="labelo">Nome</label>
+                                        <input type="text" name="nome" id="nome" class="inputo">
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <label for="especie" class="labelo">Especie</label>
+                                        <select name="especie" id="especie" class="inputo">
+                                            <option value="none" selected>Nenhuma Especie Selecionada</option>
+                                        </select>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="inputs2">
+                                <div>
+                                    <p>
+                                        <label for="data" class="labelo">Data de Nascimento</label>
+                                        <input type="date" name="data" class="inputo">
+                                    </p>
+                                </div>
+                                <div class="foto">
+                                    <p>
+                                        <label for="foto" class="labelo">Adicione uma foto</label>
+                                        <input type="file" name="foto" class="inputo">
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="descricao">
+                                <textarea name="descricao" id="descricao" cols="24" rows="13" class="textarea"
+                                    placeholder="Descrição"></textarea>
+                                <div class="poderes">
+                                    <p>
+                                        <label for="poder" class="labelo">Poderes</label>
+                                        <input type="checkbox" name="poder" id="poder" class="inputo2">
+                                        <input type="checkbox" name="poder" id="poder" class="inputo2">
+                                        <input type="checkbox" name="poder" id="poder" class="inputo2">
+                                        <input type="checkbox" name="poder" id="poder" class="inputo2"> 
+                                    </p>
+                                    <div class="tipodepersonagem">
+                                        <p>
+                                            <label for="tipoperso" class="labelo">Tipo de Personagem</label>
+                                            <input type="radio" name="tipoperso" class="inputo3"> Heóri/Heroina
+                                            <input type="radio" name="tipoperso" class="inputo3"> Vilão/Vilã
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <input type="submit" class="botao">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>Todos os direitos reservados a FRONT END 1</p>
+        </div>
+    </footer>
+</body>
+
+</html>
