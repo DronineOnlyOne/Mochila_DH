@@ -1,0 +1,9 @@
+IP Privado:
+Endereço IPv4: 10.0.0.107
+Endereço IPv6: fe80::4112:b0fd:2698:d453%7
+Máscara de Sub-rede: 255.255.255.0
+
+Endereço MAC: 5C-C9-D3-7B-BA-86
+MACVendor: PALLADIUM ENERGY ELETRONICA DA AMAZONIA LTDA
+
+IP Público: 177.38.82.42
