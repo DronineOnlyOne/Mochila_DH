@@ -94,4 +94,4 @@ function microondas(comida, tempo) {
     }
 }
 
-console.log (microondas(5, 8))
+console.log (microondas("", ""))
