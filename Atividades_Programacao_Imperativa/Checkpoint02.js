@@ -62,7 +62,7 @@ function doadordesangue (idade) {
     }
 }
 
-console.log (doadordesangue ())
+console.log (doadordesangue (60))
 
 // ex03 ------------------------------------//---------------------------------------//-------------------------------
 
