@@ -1,20 +1,20 @@
 
 // -------------------------------- Exercicio 01--------------------------------------------
 
-// let FizzBuzz = (x, y) => {
-//     for (let i = 1; i <= 100; i++) {
-//         if (i % x === 0 && i % y !== 0) {
-//             console.log(i + ' - Fizz' + '\n');
-//         } else if (i % y === 0 && i % x !== 0) {
-//             console.log(i + ' - Buzz' + '\n');
-//         } else if (i % y === 0 && i % x === 0) {
-//             console.log(i + ' - FizzBuzz' + '\n');
-//         }
-//     }
-//     return '\n';
-// }
+let FizzBuzz = (x, y) => {
+    for (let i = 1; i <= 100; i++) {
+        if (i % x === 0 && i % y !== 0) {
+            console.log(i + ' - Fizz' + '\n');
+        } else if (i % y === 0 && i % x !== 0) {
+            console.log(i + ' - Buzz' + '\n');
+        } else if (i % y === 0 && i % x === 0) {
+            console.log(i + ' - FizzBuzz' + '\n');
+        }
+    }
+    return '\n';
+}
 
-// console.log(FizzBuzz(1, 2))
+console.log(FizzBuzz(6, 5))
 
 
 // -------------------------------- Exercicio 02--------------------------------------------
