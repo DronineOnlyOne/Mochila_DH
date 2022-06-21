@@ -1,16 +1,4 @@
 
-// 4. As    maçãs     custam     R$     0,30     cada     se     forem     compradas    menos     do     que     uma
-//     dúzia,     e     R$     0,25     se     forem     compradas     pelo     menos     doze.     Escreva     um
-//     programa     que     leia     o     número     de     maçãs     compradas,     calcule     e     escreva     o
-//     valor    total    da    compra.
-
-// 5. Tendo     como     entrada     a     altura     e     o     sexo     (codificado     da     seguinte     forma:
-//     1:feminino          2:masculino)     de     uma     pessoa,     construa     um     programa     que
-//     calcule    e    imprima    seu    peso    ideal,    utilizando    as    seguintes
-//     Fórmulas:
-//     - para    homens:    (72.7    *    Altura)    – 58
-//     - para    mulheres:    (62.1    *    Altura)    – 44.7
-
 // 1
 
 function ex01 (valor1, valor2) {
@@ -52,3 +40,29 @@ console.log (ex03 (0000))
 
 // 4
 
+function macas (a){
+    if (a < 12){
+        console.log ("Você comprou "+a+" de maçãs, e o preço será R$"+ (a * 0.30))
+    }
+    else {
+        console.log ("Você comprou "+a+" de maçãs, e o preço será R$"+ (a * 0.25))
+    }
+}
+
+macas (15)
+
+// 5
+
+function peso (sexo,altura) {
+    if (sexo === "F"){
+        console.log ("Seu peso ideal por ser mulher é "+ (altura * 62.1 - 44.7 ).toFixed(2)+" Kg")
+    }
+    else if ( sexo === "M"){
+        console.log ("Seu peso ideal por ser homem é "+ (72.7 * altura - 58).toFixed(2) +" Kg")
+    }
+    else {
+        console.log ("insira seu sexo e altura")
+    }
+}
+
+peso ("M",1.70)
