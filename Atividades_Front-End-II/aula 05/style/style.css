@@ -1,0 +1,45 @@
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+
+button {
+    margin-top: 20px;
+    line-height: 60px;
+    font-weight: bold;
+    padding: 0 40px;
+    background: salmon;
+    border: none;
+  }
+  button:hover {
+    background: lightsalmon;
+  }
+
+li {
+    background-color: blueviolet;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow:  1px 10px 10px;
+}
+
+.li-novo {
+    background-color: red;
+    font-size: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow:  1px 10px 10px;
+}

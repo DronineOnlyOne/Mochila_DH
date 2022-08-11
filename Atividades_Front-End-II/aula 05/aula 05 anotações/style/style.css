@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    
+}
+
+h1,p {
+  color: antiquewhite;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+    color: aqua;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 300px;
+}
