@@ -9,8 +9,8 @@ let botao6 = document.getElementById("botao6")
 function mudarImagem1() {
     let outraFoto = document.getElementsByTagName("img")[0]; // 0 se refere a ordem do Array
 
-    if (botao1.click){
-        outraFoto.setAttribute("src","./imagens/tigreGodito.jpg")
+    if (botao1.click) {
+        outraFoto.setAttribute("src", "./imagens/tigreGodito.jpg")
 
     }
 }

@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: aquamarine;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+form {
+    margin-top: 200px;
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color: rgb(106, 18, 106);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: inset black 10px 10px 50px 10px;
+}
+
+#formLabel {
+  margin-left: 90px;
+}
+
+#botao {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+label {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+button {
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+button:active{
+    background-color: black;
+    color: white;
+}
+
+#h1cont {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 290px;
+    margin-right: 305px;
+    border-bottom: solid 1px black;
+}
+
+#textoCor {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 414px;
+    margin-right: 390px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: solid 5px red;
+}
+
+#qudroEscreverJS {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 414px;
+    margin-right: 390px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: solid 5px red;
+}
+
+#h1JS {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 290px;
+    margin-right: 305px;
+    border-bottom: solid 1px black;
+}
