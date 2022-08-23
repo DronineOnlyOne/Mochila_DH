@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#tituloHeader {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 15px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid rgb(255, 0, 0) 2px;
+    box-shadow: rgba(255, 0, 0, 0.736) 0px 5px 30px;
+    border-radius: 10px;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+#formulario {
+    margin-top: 200px;
+    margin-left: 600px;
+    width: 190px;
+    text-align: center;
+    background-color: rgb(23, 6, 99);
+    box-shadow: red 0px 0px 20px;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.inputes {
+    margin-top: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+#formulario h1{
+    margin-bottom: 30px;
+}
+
+button{
+    margin-top: 30px;
+}
+
+#card-Personagens h1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 350px;
+    margin-right: 350px;
+    border-bottom: solid red 2px;
+    border-radius: 3px;
+}
+
+
+.lista-Personagens{
+    /* background-color: white; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 145px;
+}
+
+.card {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.imagem-Card{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.conteudo-Card {
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    bottom: 0;
+    border-radius: 1em 1em 0 0;
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    padding: 1rem;
+}
+
+.titulo-Card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px red solid;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.desc-Card {
+    font-size: 10px;
+}
+
+.pe-da-pagina {
+    background-color: black;
+    padding: 20px;
+    box-shadow: inset red 0px 0px 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteudo-pe{
+    display: flex;
+    justify-content: space-between;
+}
+
+.group{
+    text-align: center;
+    margin-left: 300px;
+}
+
+
+
+.group  img{
+    border-radius: 50%;
+    width: 42px;
+    height: 40px;
+}
+
