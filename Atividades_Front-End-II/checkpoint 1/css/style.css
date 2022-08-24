@@ -4,30 +4,38 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-#tituloHeader {
-    color: rgb(255, 255, 255);
-    font-size: 25px;
-    padding: 15px;
-    margin-top: 5px;
+header{
     display: flex;
-    justify-content: center;
-    border-bottom: solid rgb(255, 0, 0) 2px;
-    box-shadow: rgba(255, 0, 0, 0.736) 0px 5px 30px;
+    justify-content: space-around;
+}
+
+#tituloHeader {
+    font-size: 25px;
+    padding: 20px;
+    margin-top: 18px;
+    margin-left: 341px;
+    text-align: center;
+    border: solid rgb(0, 0, 0) 1px;
+    box-shadow: inset   rgb(47, 175, 249) 1px 1px 10px 10px;
     border-radius: 10px;
 }
 
-body {
-    background-color: black;
-    color: white;
+header .switch {
+    margin-top: 36px;
 }
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
 
 #formulario {
     margin-top: 200px;
-    margin-left: 600px;
-    width: 190px;
+    margin-left: 551px;
+    width: 290px;
     text-align: center;
-    background-color: rgb(23, 6, 99);
-    box-shadow: red 0px 0px 20px;
+    box-shadow: inset rgb(47, 175, 249) 0px 0px 25px;
     padding: 30px;
     border-radius: 30px;
 }
@@ -98,10 +106,9 @@ button{
     font-size: 10px;
 }
 
-.pe-da-pagina {
-    background-color: black;
+#pe-da-pagina {
     padding: 20px;
-    box-shadow: inset red 0px 0px 10px;
+    box-shadow: inset  rgb(47, 175, 249) 0px 0px 10px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -117,10 +124,28 @@ button{
 }
 
 
-
 .group  img{
     border-radius: 50%;
     width: 42px;
     height: 40px;
 }
 
+/* Dark-Mode*/ 
+
+.darkTitleHeader{
+    color: rgb(255, 255, 255);
+    border: solid rgb(0, 245, 16) 1px;
+}
+
+.darkBody{
+    background-color: black;
+    color: white;
+}
+
+.darkForm{
+    background-color: rgb(0, 0, 0);
+}
+
+.darkFootter{
+    background-color: black;
+}
