@@ -188,3 +188,20 @@ input:checked + .slider:before {
   /* change the value of second inset in box-shadow to change the angle and direction of the moon  */
   box-shadow: inset -3px -2px 5px -2px #8983f7, inset -10px -4px 0 0 #a3dafb;
 }
+
+@media (min-width:425px){
+  .card {
+    /* width: 350px; */
+    height: 500px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 255, .2);
+    transition: all .2s;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+   }
+   
+
+   .switch input {
+    opacity: 0;
+    width: 70px;
+  }
+}
