@@ -1,0 +1,19 @@
+version: "3.8"
+services:
+    exemplo1:
+        image:  dronine/dhinfra:latest
+        ports:
+            - "8080:80"
+        networks:
+            - public
+    exemplo2:
+        image: dronine/dhinfra:latest
+        ports:
+            - "8081:80"
+        networks:
+            - public
+networks:
+    internal:
+            internal: false
+    public:
+            internal: false

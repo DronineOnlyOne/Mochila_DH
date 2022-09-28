@@ -1,0 +1,280 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    /* ---------- Header ---------- */
+
+    header {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #tituloHeader {
+        font-size: 25px;
+        padding: 20px;
+        margin-top: 18px;
+        margin-left: 341px;
+        text-align: center;
+        border: solid rgb(0, 0, 0) 1px;
+        box-shadow: inset rgb(47, 175, 249) 1px 1px 10px 10px;
+        border-radius: 10px;
+    }
+
+    header .switch {
+        margin-top: 36px;
+    }
+
+    /* ---------- Body ---------- */
+
+    body {
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+    }
+
+    /* ---------- Formulario ---------- */
+
+    #formulario {
+        margin-top: 200px;
+        margin-left: 551px;
+        width: 290px;
+        text-align: center;
+        box-shadow: inset rgb(47, 175, 249) 0px 0px 25px;
+        padding: 30px;
+        border-radius: 30px;
+    }
+
+    .inputes {
+        margin-top: .5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #formulario h1 {
+        margin-bottom: 30px;
+    }
+
+    button {
+        margin-top: 30px;
+    }
+
+    /* ---------- Cards ---------- */
+
+    #card-Personagens h1 {
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 350px;
+        margin-right: 350px;
+        border-bottom: solid red 2px;
+        border-radius: 3px;
+    }
+
+
+    .lista-Personagens {
+        /* background-color: white; */
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 145px;
+    }
+
+    .card {
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+
+    .imagem-Card {
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .conteudo-Card {
+        display: flex;
+        flex-direction: column;
+        height: 70%;
+        bottom: 0;
+        border-radius: 1em 1em 0 0;
+        transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+        padding: 1rem;
+    }
+
+    .titulo-Card {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-bottom: 1px red solid;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+
+    .desc-Card {
+        font-size: 10px;
+    }
+
+    /* ---------- Footer ---------- */
+
+    #pe-da-pagina {
+        padding: 20px;
+        box-shadow: inset rgb(47, 175, 249) 0px 0px 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .conteudo-pe {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .group {
+        text-align: center;
+        margin-left: 260px;
+    }
+
+
+    .group img {
+        border-radius: 50%;
+        width: 42px;
+        height: 40px;
+    }
+
+    /* ---------- Dark-Mode ---------- */
+
+    .darkTitleHeader {
+        color: rgb(255, 255, 255);
+        border: solid rgb(0, 245, 16) 1px;
+    }
+
+    .darkBody {
+        background-color: black;
+        color: white;
+    }
+
+    .darkForm {
+        background-color: rgb(0, 0, 0);
+    }
+
+    .darkFootter {
+        background-color: black;
+    }
+
+
+
+    /*  ---------- Media Querie ----------*/
+
+    @media (max-width:768px) {
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        /* ---------- Header ---------- */
+        header {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        /* ---------- Body ---------- */
+        body {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        #tituloHeader {
+            font-size: 20px;
+            padding: 20px;
+            margin-top: 18px;
+            margin-left: 425px;
+            text-align: center;
+            border: solid rgb(0, 0, 0) 1px;
+            box-shadow: inset rgb(47, 175, 249) 1px 1px 10px 10px;
+            border-radius: 10px;
+        }
+
+        header .switch {
+            margin-top: 65px;
+            margin-left: 370px;
+        }
+
+        /* ---------- Formulario ---------- */
+        #formulario {
+            margin-top: 75px;
+            margin-left: 307px;
+            width: 210px;
+            text-align: center;
+            box-shadow: inset rgb(47, 175, 249) 0px 0px 25px;
+            padding: 30px;
+            border-radius: 30px;
+        }
+
+        /* ---------- Cards ---------- */
+        #card-Personagens {
+            text-align: center;
+            margin-left: -148px;
+        }
+
+        .lista-Personagens {
+            /* background-color: white; */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 860px;
+        }
+
+        #card-Personagens h1 {
+            text-align: center;
+            margin-top: 100px;
+            width: 300px;
+            margin-bottom: 100px;
+            margin-left: 440px;
+            border-bottom: solid red 2px;
+            border-radius: 3px;
+        }
+
+        .imagem-Card {
+            height: 100%;
+            width: 100%;
+            border-radius: 20px;
+        }
+
+        .titulo-Card {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border-bottom: 1px red solid;
+            border-radius: 5px;
+            font-size: 20px;
+        }
+
+        .desc-Card {
+            font-size: 15px;
+        }
+
+        /* ---------- Footer ---------- */
+
+        #pe-da-pagina {
+            box-shadow: inset rgb(47, 175, 249) 0px 0px 10px;
+            display: flex;
+            width: 850px;
+            margin-left: 5px;
+        }
+
+        .conteudo-pe {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .group {
+            text-align: center;
+            margin-left: 225px;
+        }
+
+
+        .group img {
+            border-radius: 50%;
+            width: 67px;
+            height: 67px;
+        }
+    }

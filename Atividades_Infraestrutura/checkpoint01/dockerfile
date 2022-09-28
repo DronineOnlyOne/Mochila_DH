@@ -1,0 +1,5 @@
+FROM php:7.1-apache
+LABEL version="5.2.1" description="Checkpoint01"
+COPY ./ /var/www/html
+EXPOSE 80
+CMD ["apache2-foreground"]
